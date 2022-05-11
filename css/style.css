@@ -550,8 +550,16 @@ select {
 }
 
 @media (max-width:486px) {
+    section {
+        padding-top: 100px;
+    }
+
     .container {
         width: 300px!important;
+    }
+
+    .header {
+        padding-top: 20px;
     }
 
     .header-nav {
@@ -564,12 +572,20 @@ select {
     }
 
     .home-heading {
-        line-height: 30px;
-        font-size: 25px;
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .btn-home {
+        padding: 10px;
     }
 
     .about-right {
         width: auto;
+    }
+
+    .catalog-title {
+        padding-top: 30px;
     }
 
     .btn-feedback {
@@ -607,6 +623,9 @@ select {
 
     .footer-contacts {
         padding-left: 50px;
+        padding-bottom: 50px;
+        
+        
     }
 
    
